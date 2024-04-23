@@ -3,7 +3,7 @@
 from .config import CollieConfig
 from .models import LlamaForCausalLM, MossForCausalLM, CollieModelForCausalLM, \
     ChatGLMForCausalLM, InternLMForCausalLM, ChatGLM2ForCausalLM, Moss003MoonForCausalLM, \
-    InternLM2ForCausalLM, Qwen2ForCausalLM, QWenLMHeadModel
+    InternLM2ForCausalLM, Qwen2ForCausalLM
 from .callbacks import Callback, HasMonitorCallback, CheckpointCallback, \
     LoadBestModelCallback
 from .module import PipelineGenerationMixin, ColumnParallelLinear, \
@@ -52,7 +52,6 @@ __all__ = [
     'ChatGLM2ForCausalLM',
     'Moss003MoonForCausalLM',
     'InternLM2ForCausalLM',
-    'Qwen2ForCausalLM',
 
     # modules
     'PipelineGenerationMixin',

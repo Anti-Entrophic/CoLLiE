@@ -25,7 +25,7 @@ from collie.module import GPTLMLoss
 
 # 1. 设置路径
 # 1.1 预训练模型路径
-pretrained_model = 'decapoda-research/llama-7b-hf'
+pretrained_model = 'huggyllama/llama-7b'
 # 1.2 数据集路径
 data_path = 'alpaca.json'
 # 1.3 Eval的decode结果保存路径
